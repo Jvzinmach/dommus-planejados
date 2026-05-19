@@ -1,0 +1,26 @@
+node_modules
+dist
+.vercel
+.env
+.env*.local
+.DS_Store
+
+# Outros projetos
+barbearia-luxe
+
+# Arquivos de mídia grandes não utilizados no build do site
+PORSCHE.mp4
+stitch.zip
+stitch_extracted
+video hero*.mp4
+*.mov
+*.pdf
+*.pptx
+
+# Cópias duplicadas na raiz (as originais estão na pasta public)
+/0424.mp4
+/*.jpeg
+/*.png
+/como-comprar-dominio-hostinger.md
+/proposta-contrato.html
+/GEMINI-Construtor-de-Sites.md (2).txt

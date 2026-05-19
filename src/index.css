@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark text-offwhite overflow-x-hidden;
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Noise Texture Overlay Profissional */
+.noise-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/svg%3E");
+}
+
+/* Custom Utilities de Acordo com a Skill */
+.text-drama {
+  @apply font-drama italic;
+}
+
+.pill-nav {
+  @apply fixed top-10 left-1/2 -translate-x-1/2 z-50 px-8 py-4 rounded-full border border-white/5 backdrop-blur-2xl transition-all duration-700 bg-black/20;
+}
+
+.card-rounded {
+  @apply rounded-[2.5rem];
+}
+
+/* Scroll Stacking Styles */
+.stacking-card {
+  @apply min-h-screen sticky top-0 flex items-center justify-center;
+}
+
+.glass-card {
+  @apply bg-neutral-900/40 backdrop-blur-lg border border-white/5 card-rounded;
+}
+
+/* Custom Premium Cursor */
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #e6deca;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
+}
+
+.custom-cursor.cursor-expand {
+  width: 48px;
+  height: 48px;
+  background-color: rgba(230, 222, 202, 0.15);
+  border-color: #e6deca;
+}
+
+/* Preloader styles */
+.loader-bar {
+  transition: transform 0.1s ease-out;
+}

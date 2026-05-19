@@ -1,0 +1,21 @@
+# Ignore large media/archives on the root that are not part of the build
+/stitch.zip
+/stitch_extracted
+/0424.mp4
+/35d25508-f526-4e79-a35d-7714f0b62cd0.mov
+/video hero (2).mp4
+/video hero.mp4
+/Domus Planejados - Portfólio Técnico de Alto Padrão.pptx.pdf
+/barbearia-luxe
+/node_modules
+/dist
+/.git
+/logo.jpeg
+/197db7c8-eb88-40fd-b7ae-0d6409d9207c.jpeg
+/727eeb85-1e82-4213-9afb-b1b130909b83.jpeg
+/758cb149-d2e1-4cba-8d81-c175f9014348.jpeg
+/7bd6fc54-ea19-48a5-8627-9afb117d9af8.jpeg
+/891b6be8-d37e-40bf-8a2b-f86278e5cbaf.jpeg
+/cd3018a1-b509-4276-bc94-842bc576ba81.jpeg
+/d13e70d3-4812-4634-a1d6-9807eecf854b.jpeg
+/d3025c9e-057c-4e79-a92f-3bd85557db4f.jpeg
